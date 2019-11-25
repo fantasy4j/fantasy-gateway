@@ -1,0 +1,7 @@
+spring:
+  application.name: gateway
+  profiles.active: @profileActive@
+logging:  #日志输出相关配置
+  file: /export/Logs/fantasy4j/gateway.log
+  level.root: INFO
+  level.org.springframework: INFO
